@@ -1,6 +1,9 @@
 package com.john.mvvmframework.interactor;
 
 
+import io.reactivex.Observable;
+import io.reactivex.ObservableSource;
+
 /**
  * Created by john on 11/28/17.
  */

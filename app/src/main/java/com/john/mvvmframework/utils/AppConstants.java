@@ -62,7 +62,9 @@ public final class AppConstants {
 
     public static final String DATE_FORMAT_6 = "yyy-MM-dd'T'HH:mm:ss.SSSZ";
 
-    public static final String DATE_FORMAT_7 = "hh:mm a";
+    public static final String DATE_FORMAT_7 = "HH:mm";
+
+    public static final String DATE_FORMAT_8 = "hh:mm";
 
     public static final String MIN_BIRTH_DAY = "12/31/1999";
 

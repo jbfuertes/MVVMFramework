@@ -43,7 +43,6 @@ public class ApplicationModule {
         return appData;
     }
 
-
     /*@Singleton
     @Provides
     PreferenceManager providePreferenceManager(AppPreference appPreference){

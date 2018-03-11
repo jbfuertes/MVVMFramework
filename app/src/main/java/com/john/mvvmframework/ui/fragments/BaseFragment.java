@@ -186,7 +186,6 @@ public abstract class BaseFragment extends Fragment implements BaseView {
 
         void onFragmentDetached(String tag);
 
-        void onReloadUserData();
 
     }
 

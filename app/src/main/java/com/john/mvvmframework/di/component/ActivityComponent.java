@@ -2,6 +2,7 @@ package com.john.mvvmframework.di.component;
 
 import com.john.mvvmframework.di.module.ActivityModule;
 import com.john.mvvmframework.di.scope.PerActivity;
+import com.john.mvvmframework.ui.activities.ActivitySplash;
 
 import dagger.Component;
 
@@ -13,5 +14,5 @@ import dagger.Component;
 @Component(modules = ActivityModule.class,dependencies = ApplicationComponent.class)
 public interface ActivityComponent {
 
-    /*void inject(ActivitySplash activity);*/
+    void inject(ActivitySplash activity);
 }
